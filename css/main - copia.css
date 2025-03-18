@@ -811,8 +811,7 @@ footer {
   .contentBox .content-image-grid {
     display: grid;                /* Utiliza grid para organizar las imágenes */
     grid-template-columns: repeat(3, 1fr);  /* Crea tres columnas de igual tamaño */
-    gap: 10px;                    /* Agrega espacio entre las columnas */
-    padding: 10px;                /* Agrega un poco de padding al contenedor */
+  
   }
 
   
