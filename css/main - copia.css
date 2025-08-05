@@ -34,9 +34,7 @@
     align-items: center;
     justify-items: stretch; } }
 
-/* --- ADAPTACION A OTRAS PANTALLAS --- */
-/* Pantallas con un ancho minimo de 427 px y un maximo de 1023 px */
-@media only screen and (min-width: 427px) and (max-width: 1023px) {
+
   /* --- IMPORT --- */
   /* --- ANIMACIONES --- */
   .text-grayscale {
@@ -86,9 +84,7 @@
     .contentBox .content-image-grid .div5, .contentBox .content-image-grid .div6, .contentBox .content-image-grid .div7, .contentBox .content-image-grid .div8 {
       display: none; } }
 
-/* --- ADAPTACION A OTRAS PANTALLAS --- */
-/* Pantallas con un ancho minimo de 1024 px */
-@media only screen and (min-width: 1024px) {
+
   /* --- IMPORT --- */
   /* --- ANIMACIONES --- */
   .text-grayscale {
@@ -910,3 +906,43 @@ footer {
 
 /* Puedes añadir estilos adicionales que ya tengas aquí */
 
+
+
+
+
+
+
+/* Diseño fijo para todas las pantallas */
+.contentBox .content-image-grid {
+  display: grid;
+  grid-template-columns: calc((75vw + 12px)/2) calc((75vw + 12px)/2);
+  grid-template-rows: auto;
+  gap: 12px; /* o el gap que uses */
+}
+
+/* Posicionamiento de las áreas para todos los divs */
+.contentBox .content-image-grid .div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.contentBox .content-image-grid .div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.contentBox .content-image-grid .div3 {
+  grid-area: 2 / 1 / 2 / 3;
+}
+.contentBox .content-image-grid .div4 {
+  grid-area: 4 / 1 / 4 / 3;
+}
+.contentBox .content-image-grid .div9 {
+  grid-area: 5 / 1 / 5 / 3;
+}
+
+/* Mostrar todos los divs (elimina cualquier display:none) */
+.contentBox .content-image-grid .div5,
+.contentBox .content-image-grid .div6,
+.contentBox .content-image-grid .div7,
+.contentBox .content-image-grid .div8 {
+  display: block; /* o quítalo si no hay estilos previos que oculten */
+}
+
+/* Elimina o comenta cualquier media query que modifique esto */
