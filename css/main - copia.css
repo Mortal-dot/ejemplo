@@ -830,7 +830,23 @@ footer {
 
 
 
+.content-image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 16px;
+}
 
 
+@media (max-width: 768px) {
+  .content-image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
+@media (max-width: 480px) {
+  .content-image-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
