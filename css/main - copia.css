@@ -850,3 +850,30 @@ footer {
   }
 }
 
+
+
+
+
+
+
+.content-image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  padding: 0px;
+  max-width: 1200px; /* Aumenta el ancho máximo */
+  margin: 0 auto;     /* Centra el contenedor */
+}
+
+
+
+.content-image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* Opcional: recorta para mantener proporción */
+}
+
+
+
+
