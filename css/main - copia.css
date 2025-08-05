@@ -88,7 +88,9 @@
     .contentBox .content-image-grid .div5, .contentBox .content-image-grid .div6, .contentBox .content-image-grid .div7, .contentBox .content-image-grid .div8 {
       display: none; } }
 
-
+/* --- ADAPTACION A OTRAS PANTALLAS --- */
+/* Pantallas con un ancho minimo de 1024 px */
+@media only screen and (min-width: 1024px) {
 
 
   /* --- IMPORT --- */
