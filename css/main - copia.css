@@ -954,3 +954,29 @@ footer {
 }
 
 /* Elimina o comenta cualquier media query que modifique esto */
+
+
+
+
+
+
+
+.justificado {
+  text-align: justify;
+}
+
+.text-cita_hiper {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.section-division {
+  border-top: 2px solid #aaa;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.image-class {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
