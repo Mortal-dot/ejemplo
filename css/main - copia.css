@@ -36,9 +36,6 @@
 
 
 
-/* --- ADAPTACION A OTRAS PANTALLAS --- */
-/* Pantallas con un ancho minimo de 427 px y un maximo de 1023 px */
-@media only screen and (min-width: 427px) and (max-width: 1023px) {
 
 
 
@@ -91,9 +88,7 @@
     .contentBox .content-image-grid .div5, .contentBox .content-image-grid .div6, .contentBox .content-image-grid .div7, .contentBox .content-image-grid .div8 {
       display: none; } }
 
-/* --- ADAPTACION A OTRAS PANTALLAS --- */
-/* Pantallas con un ancho minimo de 1024 px */
-@media only screen and (min-width: 1024px) {
+
 
 
   /* --- IMPORT --- */
