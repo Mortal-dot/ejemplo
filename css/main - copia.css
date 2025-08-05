@@ -876,4 +876,37 @@ footer {
 
 
 
+.content-image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Siempre 3 columnas */
+  gap: 8px;
+  padding: 0px;
+  max-width: 1200px; /* Puedes aumentar este valor si quieres aún más grandes */
+  margin: 0 auto;     /* Centra el contenedor */
+}
+
+.content-image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* Recorta proporcionalmente si es necesario */
+}
+
+/* Eliminamos los media queries que modificaban columnas en pantallas pequeñas */
+
+/* 
+@media (max-width: 768px) {
+  .content-image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .content-image-grid {
+    grid-template-columns: 1fr;
+  }
+}
+*/
+
+/* Puedes añadir estilos adicionales que ya tengas aquí */
 
